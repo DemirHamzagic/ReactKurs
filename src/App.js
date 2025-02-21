@@ -1,10 +1,14 @@
 import "./App.css";
 import Hello from "./components/Hello";
+import Loog from "./components/Loog";
+import Slika from "./components/download.jpg";
 
 function App() {
 	return (
-		<div className="App">
+		<div>
 			<Hello />
+			<img src={Slika} />
+			<Loog />
 		</div>
 	);
 }
