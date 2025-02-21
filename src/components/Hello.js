@@ -1,5 +1,3 @@
-import World from "./World";
-
 export default function Hello() {
 	const text = ["HAlo", "HAlo", "HAlo", "HAlo", "HAlo"];
 
