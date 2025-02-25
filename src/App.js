@@ -1,14 +1,19 @@
+import Brojac from "./cas1/Brojac.js";
+import "./cas1/Brojac.css";
 import "./App.css";
-import Hello from "./components/Hello";
-import Loog from "./components/Loog";
-import Slika from "./components/download.jpg";
+import Submit from "./cas1/Submit.js";
 
 function App() {
 	return (
-		<div>
-			<Hello />
-			<img src={Slika} />
-			<Loog />
+		<div className="parentDiv">
+			<div className="formDiv">
+				<Submit />
+				<div className="ageDiv">
+					<div>
+						<Brojac />
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
